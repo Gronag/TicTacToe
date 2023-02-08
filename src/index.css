@@ -1,0 +1,30 @@
+body, html {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.Grid-TicTacToe {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;  
+  font-size: 2rem;
+  
+}
+
+.Grid-TicTacToe div {
+  border: 2px solid white;
+  padding: 4rem;
+}
+
+.Winner-Message {
+  text-align: center;
+  padding: 3rem;
+  font-size: 4rem;
+}
